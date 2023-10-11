@@ -39,8 +39,8 @@ def compress_mp4(input_file, output_file, crf=23):
         print(f"An error occurred: {str(e)}")
 
 if __name__ == "__main__":
-    input_file = "/Users/mac/Desktop/input.mp4"  # Replace with your input MP4 file
-    output_file = "/Users/mac/Desktop/output_compressed.mp4"  # Replace with the desired output file name
+    input_file = "/path/to/file/input.mp4"  # Replace with your input MP4 file
+    output_file = "/path/to/file/output_compressed.mp4"  # Replace with the desired output file name
     crf_value = 23  # Adjust the CRF value as needed (lower values result in higher quality)
 
     compress_mp4(input_file, output_file, crf_value)
